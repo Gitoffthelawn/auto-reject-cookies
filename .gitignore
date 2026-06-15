@@ -1,6 +1,9 @@
 # Package archives
 *.zip
 archive_versions/
+# Unpacked release snapshots (redundant with chrome/ + firefox/ source)
+auto_reject_cookies-*/
+chrome/auto_reject_cookies-chrome-*/
 
 # IDE
 .idea/
